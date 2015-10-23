@@ -36,4 +36,11 @@ puts "Left until loop"
     puts "Running in while loop" while condition
     puts "Running in until loop" until condition
 
+  There are also keywords for controlling the loop behaviour:
+
+    break -> leaves the loop immediately
+    next -> jumps to the head of the loop and runs with incremented count
+    redo -> jumps to head of the loop and runs with same counter
+    retry -> jumps to head of the loop and runs with initial counter
+
 =end
