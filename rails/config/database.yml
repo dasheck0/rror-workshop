@@ -1,0 +1,32 @@
+--- 
+default: 
+  adapter: mysql2
+  encoding: utf8
+  password: appcom
+  pool: 5
+  socket: /tmp/mysql.sock
+  username: appcom
+development: 
+  adapter: mysql2
+  database: ProjecTest_development
+  encoding: utf8
+  password: appcom
+  pool: 5
+  socket: /tmp/mysql.sock
+  username: appcom
+production: 
+  adapter: mysql2
+  database: ProjecTest_production
+  encoding: utf8
+  password: "<%= ENV['PROJECTEST_DATABASE_PASSWORD'] %>"
+  pool: 5
+  socket: /tmp/mysql.sock
+  username: ProjecTest
+test: 
+  adapter: mysql2
+  database: ProjecTest_test
+  encoding: utf8
+  password: appcom
+  pool: 5
+  socket: /tmp/mysql.sock
+  username: appcom

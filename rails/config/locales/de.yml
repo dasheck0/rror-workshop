@@ -1,0 +1,7 @@
+de:
+  active_record:
+    model:
+      project:
+        name:
+          blank:
+            'Darf nicht leer sein'
